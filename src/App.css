@@ -1,0 +1,60 @@
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  height: 60px;
+  background: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  flex-shrink: 0;
+}
+
+.top-bar h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+
+.viewer-section {
+  flex: 1;
+  padding: 16px;
+  background: #eef2f7;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+
+.side-panel {
+  width: 280px;
+  padding: 20px;
+  background: #f9fafb;
+  border-left: 1px solid #d1d5db;
+}
+
+.side-panel h2 {
+  margin-top: 0;
+}
