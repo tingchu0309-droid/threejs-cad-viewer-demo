@@ -1,25 +1,23 @@
-# threejs-cad-viewer
+# Three.js CAD Viewer Demo
 
-My first Three.js CAD viewer demo built with React and Vite.
+A lightweight 3D CAD viewer built with React and Three.js for geometry visualization and interaction.
 
 ## Features
-
-- Three.js scene setup
-- Perspective camera
-- Grid helper
-- Axes helper
-- Box geometry demo
-- OrbitControls interaction
-- Basic engineering-style viewer layout
+- Load and display 3D models (OBJ)
+- Orbit controls for navigation
+- Scene helpers (grid, axes, lighting)
+- Basic geometry visualization
 
 ## Tech Stack
-
 - React
 - Vite
 - Three.js
 
-## Run locally
+## Motivation
+This project demonstrates my experience working with geometry processing and 3D visualization in industrial software systems.
 
-```bash
-npm install
+It is inspired by real-world engineering applications involving CAD models, layout planning, and visualization workflows.
+
+## How to Run
+npm install  
 npm run dev
