@@ -24,7 +24,8 @@ It demonstrates how engineering models can be visualized and interacted with in 
 - Building interactive visualization tools for engineering workflows
 
 ## Demo
-<img width="1917" height="939" alt="image" src="https://github.com/user-attachments/assets/558004c3-57e8-476b-ad39-c37f4e6ab345" />
+![CAD Viewer Demo](./combined_demo.png)
+
 
 ## How to Run
 ```bash
